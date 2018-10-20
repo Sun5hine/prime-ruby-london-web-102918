@@ -1,5 +1,5 @@
 def prime?(number)
- prime_number = [1, 2, 5, 7]
+ prime_number = [2, 3, 5, 7]
 if prime_number.include?(number)
   true
 elsif
