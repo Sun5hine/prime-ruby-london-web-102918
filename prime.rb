@@ -1,10 +1,8 @@
 def prime?(number)
- prime_number = [2, 3, 5, 7]
-if prime_number.include?(number)
-  true
-elsif
-prime_number.each {|x| number % x == 0 }
-false
-
+ for i in i..number
+ if number % i == 0 
+   TRUE 
+ else
+   false
 end
 end
